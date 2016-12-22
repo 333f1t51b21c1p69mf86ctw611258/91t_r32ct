@@ -77,6 +77,11 @@
 			'div',
 			null,
 			'test2'
+		),
+		_react2.default.createElement(
+			'div',
+			null,
+			'test3'
 		)
 	), document.getElementById('root'));
 

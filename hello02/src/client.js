@@ -8,6 +8,7 @@ ReactDOM.render(
 			<p>test1</p>
 		</div>
 		<div>test2</div>
+		<div>test3</div>
 	</div>,
   	document.getElementById('root')
 );
