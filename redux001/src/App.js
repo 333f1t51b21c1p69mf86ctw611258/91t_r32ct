@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Hello from './components/Hello'
 
 // <<<
 import { createStore } from 'redux';
@@ -55,6 +56,8 @@ class App extends Component {
             this.state.checked ? (<h2>Done!</h2>) : null
           }
         </div>
+
+        <Hello />
       </div>
     );
   }
