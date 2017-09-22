@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Hello from './components/Hello'
+import Hello from '../Hello/Hello'
 
-// <<<
 import { createStore } from 'redux';
 
 const defaultState = { checked: false };
@@ -18,7 +17,6 @@ const reducer = function (state = defaultState, action) {
 }
 
 const store = createStore(reducer);
-// >>>
 
 class App extends Component {
 
